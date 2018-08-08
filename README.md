@@ -1,5 +1,13 @@
 # Educational Heap Exploitation
 
+## How to build?
+
+I'm using 4 threads on my PC, u can change to a different number too.
+```sh
+./glibc_build.sh glibc-2.25 4
+./glibc_build.sh glibc-2.26 4
+```
+
 This repo is for learning various heap exploitation techniques.
 We came up with the idea during a hack meeting, and have implemented the following techniques:
 
