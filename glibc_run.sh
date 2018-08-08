@@ -10,7 +10,7 @@ fi
 # Get glibc source
 if [ ! -e "$VERSION/libc-$1.so" ]; then
     echo "Error: Glibc-version wasn't build. Build it first:"
-    echo "./build_glibc $1 <#make-threads"
+    echo "./glibc_build.sh $1 <#make-threads"
 fi
 
 LD_PRELOAD="$VERSION/libc-$1.so" "$VERSION/ld-$1.so" "$2"
