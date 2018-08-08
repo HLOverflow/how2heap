@@ -1,11 +1,18 @@
 # Educational Heap Exploitation
 
-## How to build?
+## How to build the libc versions?
 
 I'm using 4 threads on my PC, u can change to a different number too.
 ```sh
 ./glibc_build.sh glibc-2.25 4
 ./glibc_build.sh glibc-2.26 4
+```
+
+## How to build the challenges?
+
+Very simple
+```sh
+make
 ```
 
 This repo is for learning various heap exploitation techniques.
